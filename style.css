@@ -917,7 +917,31 @@ body.black-bg .text-black {
 .full-height {
   height: 100%;
 }
-
+.email-clipboard {
+  position: relative;
+  cursor: pointer;
+}
+.email-clipboard span {
+  backdrop-filter: blur(6px);
+  padding: calc(var(--margin-page) / 1);
+  border-radius: 30px;
+  background: var(--bg-bottom-nav);
+  background: var(--yellow);
+  font-size: calc(var(--base-font-size) / 1.2 );
+  position: absolute;
+  top: 0;
+  margin-left: var(--margin-page);
+  height: auto;
+  line-height: 1em;
+  transition: all .6s ease;
+  opacity: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.email-clipboard.active span {
+  opacity: 1;
+  transform: translateY(20%);
+}
 
 /* END CSS 2023 DESKTOP */
 /* ===================================== */
