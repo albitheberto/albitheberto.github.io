@@ -912,6 +912,9 @@ body.black-bg .text-black {
 .project-pagraph {
   font-weight: 500;
 }
+.full-height {
+  height: 100%;
+}
 
 
 /* END CSS 2023 DESKTOP */
