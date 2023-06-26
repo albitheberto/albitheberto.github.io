@@ -564,7 +564,9 @@ footer h1 {
   height: 100%;
   object-fit: cover;
 }
-
+.logo-award-container img {
+  height: calc(var(--baseline) * 2.5);
+}
 .custom-cursor {
   opacity: 0; /* Initially set opacity to 0 */
   position: fixed;
@@ -1726,6 +1728,10 @@ footer {
   .bg-video-proj {
     height: calc(100vh - ((var(--baseline) * 1.4) * 5.5) - ( 2 * var(--margin-page)));
   }
+  .logo-award-container img {
+    height: calc(var(--baseline) * 1.5);
+  }
+
   .project-info-section {
     margin-top: 80vh;
     margin-top: calc(100vh - ((var(--baseline) * 1.4) * 5.5) - ( 2 * var(--margin-page)));
