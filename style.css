@@ -1797,6 +1797,11 @@ footer {
     padding-left: calc(var(--baseline) * 0.3 );
     top: calc(var(--baseline) * 1.5 );
   }
+  .playground-card {
+    flex-basis: calc((100% - (var(--margin-page) * 1.5)) / 2);
+    position: relative;
+    border: 1.5px solid var(--light-blue);
+  }
 
   /* ================ END 2023 CSS =============== */
 
