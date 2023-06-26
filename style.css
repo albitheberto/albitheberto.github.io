@@ -937,6 +937,7 @@ body.black-bg .text-black {
   opacity: 0;
   transform: translateY(-50%);
   pointer-events: none;
+  color: var(--text-black);
 }
 .email-clipboard.active span {
   opacity: 1;
