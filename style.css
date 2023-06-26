@@ -824,6 +824,7 @@ body.black-bg .text-black {
 .playground-card img,
 .playground-card video {
   border-radius: 0;
+  width: 100%;
 }
 .anchor {
   position: absolute;
