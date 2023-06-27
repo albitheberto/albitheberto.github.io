@@ -927,6 +927,7 @@ body.black-bg .text-black {
   position: relative;
   cursor: pointer;
 }
+
 .email-clipboard span {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -949,6 +950,33 @@ body.black-bg .text-black {
 .email-clipboard.active span {
   opacity: 1;
   transform: translateY(20%);
+}
+
+.footer-container .email-clipboard span {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: calc(var(--margin-page) / 1);
+  border-radius: 30px;
+  background: var(--bg-bottom-nav);
+  background: var(--bg-bottom-nav);
+  font-size: calc(var(--base-font-size) / 1.2 );
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: var(--margin-page);
+  height: auto;
+  line-height: 1em;
+  transition: all .6s ease;
+  opacity: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--text-black);
+  z-index: 9;
+}
+
+.footer-container .email-clipboard.active span {
+  opacity: 1;
+  transform: translateY(0%);
 }
 
 /* END CSS 2023 DESKTOP */
