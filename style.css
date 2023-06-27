@@ -194,8 +194,8 @@ a {
   transform: translateZ(999999999px);
   transition: transform 0.5s ease;
   transform: translateY(100%);
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .big-paragraph-about {
   font-size: 2rem;
