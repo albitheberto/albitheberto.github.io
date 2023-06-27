@@ -167,6 +167,7 @@ a {
   height: 100vh;
   background-color: var(--bg-white); /* Adjust the color to your preference */
   z-index: 999999999999999999998; /* Lower z-index to be below the page transition */
+  transform: translateZ(999999px);
   opacity: 1;
   transition: opacity 0.5s ease;
 }
@@ -189,6 +190,7 @@ a {
   margin-right: var(--margin-page);
   margin-top: margin-left: var(--margin-page);
   z-index: 999999999999999999999;
+  transform: translateZ(999999999px);
   transition: transform 0.5s ease;
   transform: translateY(100%);
   border-top-left-radius: 30px;
@@ -241,6 +243,7 @@ a {
   column-gap: 0;
   position: relative;
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   padding: calc(var(--margin-page) / 2) ;
   border-radius: 30px;
   background: var(--bg-bottom-nav);
@@ -279,6 +282,7 @@ a {
   border-radius: 30px;
   background: var(--bg-bottom-nav);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   width: 40px;
   height: 18px;
   padding: 2px;
@@ -449,6 +453,7 @@ footer h1 {
   align-items: center;
   border-radius: 30px;
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   background: var(--bg-bottom-nav);
   font-size: .8rem;
 }
@@ -866,6 +871,7 @@ body.black-bg .text-black {
     display: flex;
     column-gap: 0;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     padding: calc(var(--margin-page) / 2);
     border-radius: 30px;
     background: var(--bg-bottom-nav);
@@ -923,6 +929,7 @@ body.black-bg .text-black {
 }
 .email-clipboard span {
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   padding: calc(var(--margin-page) / 1);
   border-radius: 30px;
   background: var(--bg-bottom-nav);
@@ -1741,6 +1748,7 @@ footer {
     column-gap: 0;
     position: relative;
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     padding: calc(var(--margin-page) / 2) ;
     border-radius: 30px;
     background: var(--bg-bottom-nav);
